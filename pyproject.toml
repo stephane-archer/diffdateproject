@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "diffdate"
-version = "0.0.1"
+version = "0.0.4"
 authors = [
   { name="Fractale", email="archerstephane@gmail.com" },
 ]
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/pypa/sampleproject"
 "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+[project.scripts]
+diffdate = "diffdate.diffdate:main"
