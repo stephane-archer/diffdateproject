@@ -21,7 +21,7 @@ def main():
         printusage()
         exit()
 
-    print((dates[0] - dates[1]).days)
+    print(abs((dates[0] - dates[1]).days))
 
 if __name__ == "__main__":
     main()
